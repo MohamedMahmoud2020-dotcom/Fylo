@@ -1,0 +1,126 @@
+body{
+  background-image: url("images/bg-desktop.png");
+  background-repeat:no-repeat;
+  background-position:0 320px;
+  background-color: #1a1a2e;
+}
+.left-container{
+  background-color: #0f4c75;
+  width: 350px;
+  height: 200px;
+  border-radius: 10px 100px 10px 10px;
+  position: relative;
+  left: 200px;
+  top: 55px;
+}
+.logo{
+  margin: 40px;
+}
+.logos1{
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+  left: 10%;
+}
+.logos2{
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+  left: 20%;
+  top:-3px;
+}
+.logos3{
+  padding: 5px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+  left: 30%;
+  top:-6px;
+}
+.logos1 img, .logos2 img, .logos3 img{
+  position: relative;
+  top: 3px;
+}
+.right-container{
+  width: 600px;
+  height: 140px;
+  background-color:#0f4c75;
+  position: relative;
+  left: 600px;
+  top: 250px;
+  border-radius: 20px;
+}
+.attribution{
+  position: relative;
+  top: 220px;
+  text-align: center;
+}
+input{
+  width: 550px;
+  margin: 0 20px;
+  position: absolute;
+  top: 50%;
+}
+.giga-left{
+  text-align: center;
+  padding-left: 10px;
+  width: 120px;
+  height: 70px;
+  background-color: white;
+  font-size:1.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  left: 450px;
+  bottom:60px;
+}
+.giga-left:before{
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 20px solid #ffffff;
+  border-top: 20px solid #ffffff;
+  border-bottom: 20px solid transparent;
+  right: 0;
+  bottom: -20px;
+}
+span{
+  opacity: .6;
+}
+.strong{
+  font-size: 1.4rem;
+}
+.giga1{
+  position: absolute;
+  bottom: 15px;
+  left: 17px;
+}
+.giga2{
+  position: absolute;
+  bottom: 15px;
+  right: 30px;
+}
+.storage {
+  position: absolute;
+  top: 15%;
+  left: 25px;
+  color: white;
+  opacity: .8
+}
